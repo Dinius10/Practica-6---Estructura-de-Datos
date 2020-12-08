@@ -1,0 +1,26 @@
+import abb.ArbolBinarioBusqueda;
+
+public class Main {
+    public static void main(String[] args) {
+        ArbolBinarioBusqueda abb = new ArbolBinarioBusqueda();
+
+        //INSERTAR ELEMENTOS
+        abb.insertar(3);
+        abb.insertar(2);
+        abb.insertar(4);
+        abb.insertar(1);
+        abb.insertar(3);
+        abb.insertar(5);
+        abb.insertar(7);
+        abb.insertar(6);
+
+        //recorremos/mostramos los elementos del arbol inOrden
+        //abb.mostrarInOrden();
+
+        //recorremos/mostramos los elementos del arbol PreOrden
+        //abb.mostrarPreOrden();
+
+        //recorremos/mostramos los elementos del arbol PostOrden
+        abb.mostrarPostOrden();
+    }
+}
